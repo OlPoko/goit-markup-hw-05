@@ -506,37 +506,45 @@
         <p class="modal-form">Leave your contacts and we will call you back</p>
 
         <form class="order-form">
-          <label>
-            Name
-            <input
-              class="form-input"
-              type="text"
-              name="username"
-              required
-              autofocus
-            />
-          </label>
-          <label>
-            Phone
-            <input
-              class="form-input"
-              type="tel"
-              name="contact_tel"
-              required
-              autofocus
-            />
-          </label>
+          <div class="form-label">
+            <label for="user-name" class="name-form"> Name </label>
+            <div class="form-icon">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                required
+              />
+              <svg class="svg-name" height="24" width="18">
+                <use
+                  href="./images/modal-form.svg#icon-person-black-18dp-1"
+                ></use>
+              </svg>
+            </div>
+          </div>
 
-          <label>
-            Email
-            <input
-              class="form-input"
-              type="email"
-              name="email"
-              required
-              autofocus
-            />
-          </label>
+            <label>
+              Phone
+              <input
+                class="form-input"
+                type="tel"
+                name="contact_tel"
+                required
+              />
+            </label>
+
+            <label>
+              Email
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                required
+                autofocus
+              />
+            </label>
+          </div>
 
           <button class="form-button" type="button">Send</button>
         </form>

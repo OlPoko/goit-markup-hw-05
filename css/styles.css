@@ -703,7 +703,7 @@ ul {
 
 .modal-form {
 
-  
+  margin-bottom: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -725,6 +725,9 @@ ul {
   align-items: flex-start;
   justify-content: center;
 }
+.form-label{
+  margin-bottom: 8px;
+}
 
 .order-form label {
   width: 100%;
@@ -735,7 +738,18 @@ ul {
 .order-form input {
   padding: 4px;
 }
+
+.name-form {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+
 .form-input {
+  
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 360px;
@@ -745,6 +759,19 @@ ul {
   border: 1px solid #4d5ae5;
 }
 
+.form-icon {
+  position: relative;
+
+.svg-name {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  
+}
 .form-button {
   display: block;
   border: none;
