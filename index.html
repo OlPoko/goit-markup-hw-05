@@ -503,18 +503,40 @@
         <form class="order-form">
           <label>
             Name
-            <input type="text" name="username" required />
+            <input
+              class="form-input"
+              type="text"
+              name="username"
+              required
+              autofocus
+            />
           </label>
           <label>
-            Phone number
-            <input type="tel" name="contact_tel" required />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" required />
+            Phone
+            <input
+              class="form-input"
+              type="tel"
+              name="contact_tel"
+              required
+              autofocus
+            />
           </label>
 
-          <button type="submit">Place order</button>
+          <label>
+            Email
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              required
+              autofocus
+            />
+
+              <label>Description
+          <textarea class= "form-input" name="description" rows="5" placeholder="Please provide a detailed issue description"></textarea>
+    </label>
+
+          <button class="form-button" type="submit">Send</button>
         </form>
       </div>
     </div>

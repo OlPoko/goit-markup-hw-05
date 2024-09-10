@@ -678,19 +678,16 @@ ul {
     margin-top: 72px;
 }
 
-input,
-textarea,
-button {
-  font-family: inherit;
-  line-height: inherit;
-}
 
 .order-form {
-  max-width: 300px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .order-form label {
@@ -701,4 +698,30 @@ button {
 
 .order-form input {
   padding: 4px;
+}
+.form-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+.form-input:focus-within {
+border: 1px solid #4d5ae5;
+}
+
+
+.form-button{
+  border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+      background: #4d5ae5;
+      font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
 }
