@@ -773,6 +773,8 @@ transform: translate(-50%, -50%);
     }
 
 .form-button {
+  margin-left:  96px;
+  margin-right: 96px;
   display: block;
   border: none;
   border-radius: 4px;
@@ -814,8 +816,11 @@ transform: translate(-50%, -50%);
 }
 
 .checkbox {
-   
-      margin-bottom: 24px;
+  display: flex;
+  
+    width: 360px;
+    height: 16px;
+    margin-bottom: 24px;
 }
 .checkbox-input{
 
