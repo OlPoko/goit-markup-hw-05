@@ -646,10 +646,6 @@ ul {
 }
 /* footer form */
 
-.form-container{
-  display: flex;
-  
-}
 
 .form-footer-paragraf {
   font-family: "Roboto", sans-serif;
@@ -658,7 +654,15 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 
+}
+.form-container{
+  margin-left: 80px;
+}
+.email-footer{
+  display: flex;
+  gap: 24px;
 }
 
 .footer-form{
